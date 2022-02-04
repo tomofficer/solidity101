@@ -37,7 +37,7 @@ contract simpleStorage {
     storeData = x;
   }
   //getter function, gets data
-function get(uint x) public view returns (uint) {
+function get() public view returns (uint) {
   return storeData;
   }
 }
