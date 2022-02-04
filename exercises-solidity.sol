@@ -12,14 +12,14 @@ pragma solidity >=0.7.0 <0.9.0;
 //use "contract" keyword, followed by contract name, followed by curly braces which opens up an object to store our code and data
 
 //Syntax examples in Solidity, the below defines a contract, and shows three variable types and how to define them
-contract simpleStorageExample {
-    //define an integer variable called storeData
-    uint storeData = '23'
-    //define a string variable called names
-    string names = 'tom'
-    //define a boolean variable called switchON
-    bool switchON = true
-}
+// contract simpleStorageExample {
+//     //define an integer variable called storeData
+//     uint storeData = '23'
+//     //define a string variable called names
+//     string names = 'tom'
+//     //define a boolean variable called switchON
+//     bool switchON = true
+// }
 
 //KEYWORDS IN SOLIDITY
 //THE PUBLIC KEYWORD : enables visibility so we can call the function OUTSIDE of the current contract
