@@ -26,6 +26,13 @@ pragma solidity >=0.7.0 <0.9.0;
 //THE PRIVATE KEYWORD : limits visibility so the function CANNOT be called outside of the current contract
 //THE VIEW KEYWORD : a global modifier that tells the current function that it CANNOT modify it's state
 //THE RETURNS KEYWORD : ensures the function returns the specified variable type, in the case below, an integer (uint)
+//THE PAYABLE KEYWORD : allows the function to send and receive Ether; 
+
+//MODIFIERS in solidity allow you to set conditional functions, etc
+
+//MAPPING :to map through an array, use the mapping keyword
+
+//.transer() ===> IMPORTANT SOLIDITY METHOD, allows for the transfer of ether to be applied to a list, variable, etc
 
 
 //smart contract lesson #1, setters and getters, first simple smart contract
